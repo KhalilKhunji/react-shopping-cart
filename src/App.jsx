@@ -1,8 +1,9 @@
-const App = () => {
+import Shop from './components/Shop/Shop';
 
-  return (
-    <h1>Hello world!</h1>
-  );
+import './App.css';
+
+function App() {
+  return <Shop />;
 };
 
 export default App;
